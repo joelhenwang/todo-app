@@ -1,0 +1,41 @@
+body.light{
+    background-image: url(/images/bg-desktop-light.jpg);
+    background-color:hsl(236, 33%, 92%);
+    -webkit-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+}
+
+.light .input-container, .light .todo-list-container{
+    background-color: hsl(0, 0%, 98%);
+}
+
+.light .todo-input{
+    color: hsl(233, 14%, 35%);
+}
+
+.light .circle-btn{
+    border-color: hsl(236, 33%, 92%);
+    transition: background-color 100ms linear;
+}
+
+.light .circle-btn:hover{
+    background-color:  hsl(233, 11%, 84%);
+    transition: background-color 100ms linear;
+}
+
+.light .fa-plus{
+    color:  hsl(236, 33%, 92%);
+}
+
+.light .todo-list{
+    color:  hsl(233, 14%, 35%);
+    transition: none;
+
+}
+
+.light .completed{
+    color: hsl(234, 39%, 85%);
+    transition: padding 100ms linear;
+
+}

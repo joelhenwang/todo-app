@@ -1,0 +1,17 @@
+@media (max-width: 880px){
+    body{
+        padding: 10% 10%;
+    }
+}
+
+@media (max-width: 600px){
+    .filters{
+        color: hsl(233, 14%, 35%);
+        justify-content:center;
+        align-items: center;
+        height: 50px;
+        background-color: hsl(235, 24%, 19%);
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+}
