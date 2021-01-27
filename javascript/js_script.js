@@ -19,6 +19,12 @@ themeToggle.addEventListener("click", switchTheme);
 
 // ------------  Functions  ------------------------------------------
 
+$('.todo-input').keydown(function(event){
+    if (event.which == 13) {
+        validateForm(event);
+        event.preventDefault();
+     }
+})
 
 if(intViewportWidth <= 600){
     var filtersContainer = $(".filters");
